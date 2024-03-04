@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('books', function (Blueprint $table) {
             $table->id();
-            // Inserisco la definizione di tutte le colonne necessarie...
+            
             $table->timestamps();
         });
     }
